@@ -1,0 +1,28 @@
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 80vh;
+  border: 1px solid black;
+}
+.buttons {
+  width: 33.3%;
+  height: 8vh;
+  border: 1px solid;
+  font-size: 22px;
+  transition: font-size 1s, background-color 1s;
+  background-color: rgb(174, 174, 174);
+  border: none;
+  border-bottom: 1px solid black;
+}
+.buttons:focus {
+  background-color: rgb(115, 115, 115);
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.656);
+  font-size: 26px;
+}
+.menuButtons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
