@@ -1,8 +1,18 @@
 .menuContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101vh;
+  height: 80vh;
+  margin: 10vh;
+  border: 1px solid black;
+}
+.mainContainer {
   display: flex;
   justify-content: center;
   width: 50%;
-  height: 80vh;
+  height: 0vh;
   border: 1px solid black;
 }
 .buttons {
@@ -10,10 +20,11 @@
   height: 8vh;
   border: 1px solid;
   font-size: 22px;
-  transition: font-size 1s, background-color 1s;
+  transition: font-size 1s, background-color 0.5s;
   background-color: rgb(174, 174, 174);
   border: none;
   border-bottom: 1px solid black;
+  user-select: none;
 }
 .buttons:focus {
   background-color: rgb(115, 115, 115);
