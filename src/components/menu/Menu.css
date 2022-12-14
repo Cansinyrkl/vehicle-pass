@@ -1,11 +1,8 @@
 .menuContainer {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 101vh;
-  height: 80vh;
-  margin: 10vh;
+  width: 100vh;
+  height: auto;
+  margin: 13.4vh;
   border: 1px solid black;
 }
 .mainContainer {
@@ -26,14 +23,39 @@
   border-bottom: 1px solid black;
   user-select: none;
 }
-.buttons:focus {
+.active {
   background-color: rgb(115, 115, 115);
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.656);
   font-size: 26px;
 }
+
 .menuButtons {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+.allInformation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 4vh;
+  padding-left: 2vh;
+}
+.infoClass {
+  font-size: 44px;
+  display: flex;
+  padding: 2vh;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.539);
+}
+.input {
+  position: absolute;
+  margin-top: 8.1vh;
+  font-size: 4vh;
+  text-align: center;
+  width: 95vh;
+}
+.hr {
+  padding: 0;
 }
