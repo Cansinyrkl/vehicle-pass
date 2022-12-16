@@ -123,15 +123,6 @@ const Menu = () => {
     return car.name.toLowerCase().includes(search.toLowerCase());
   });
 
-  useEffect(() => {
-    console.log("e");
-  }, [count]);
-  useEffect(() => {
-    setTimeout(() => {
-      setCount((prev) => prev + 1);
-    }, 2000);
-    console.log(count);
-  }, []);
   return (
     <>
       <div className="mainContainer">
